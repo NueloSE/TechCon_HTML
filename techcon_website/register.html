@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Register for TechCon 2025</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="./about.html">ABOUT</a>
+                </li>
+                <li>
+                    <a href="./schedule.html">SCHEDULE</a>
+                </li>
+                <li>
+                    <a href="./contact.html">CONTACT</a>
+                </li>
+            </ul>
+        </nav>
+        </header>
+
+        <main>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Individual Details: </legend>
+
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="firstName" placeholder="Enter first name">
+
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lastName" placeholder="Enter last name">
+                    <br>
+
+                    <label for="gender">Gender:</label>
+                    <select name="sex" id="gender">
+                        <option value="male">male</option>
+                        <option value="female">female</option>
+                        <option value="other" selected>others</option>
+                    </select><br>
+
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email">
+                    <br>
+
+                    <label for="pw">Password:</label>
+                    <input type="password" id="pw" name="password" required>
+                    <br>
+                    <input type="checkbox" id="terms" name="terms" value="agreed" required>
+                    <label for="terms">I have read and agree to the terms and conditions</label>
+
+                    <br><br>
+                    <button type="submit">Register Now</button>
+
+                    <button type="reset">Restart</button>
+                </fieldset>
+            </form>
+        </main>
+    <footer>
+        <small>
+            &copy; TechConnect Nigeria &dot; 2025
+        </small>
+    </footer>
+</body>
+</html>
